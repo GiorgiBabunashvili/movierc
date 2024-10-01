@@ -9,6 +9,34 @@ body {
   background-color: #141414;
 }
 /*---------------global-------------*/
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.flexSB {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+button {
+  background-color: #e50813;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 12px 40px;
+  font-weight: 500;
+  font-size: 17px;
+}
 
 /*---------------control-btn-------------*/
 
