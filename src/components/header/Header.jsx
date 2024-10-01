@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [Mobile, setMobile] = useState(false);
